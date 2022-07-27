@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+* body {
+    font-size: 100%;
+    /*background: #d0cfba;*/
+    background : linear-gradient(68.15deg, #d0cfba 10%, #ACAB9F 90%);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo {
+    height: 65px;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding: 10px;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Baloo 2', cursive;
+    color: #000;
+}
+
+.nav-item:hover {
+    background-color: rgba(92, 91, 76, 0.25);
+    border-bottom: solid 0.5px #000;
+}
+
+.nav-main {
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo {
+    border-top: solid 0.5px  #FFF;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.conteudo-titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+}
+
+.conteudo-titulo-secundario {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo-principal-imagem {
+    height: 440px;
+}
+
+.rodape {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rodape-item {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 50px;
+}
+
+.divisor {
+    height: 70px;
+    width: 1px;
+    background-color: #000;
+}
